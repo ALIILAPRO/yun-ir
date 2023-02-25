@@ -23,20 +23,18 @@ print(result)
 ## API
 
 `yun_ir.Yun(token: str)`
-Create a new Yun.ir client instance.
 
-- Parameters:
+Create a new Yun.ir client instance.
 
 `token`: Your Yun.ir API token.
 
 `yun_ir.Yun.short(title: str, url: str) -> dict`
-Shorten a URL using Yun.ir API.
 
-- Parameters:
+Shorten a URL using Yun.ir API.
 
 `title`: Title for the URL.
 `url`: URL to shorten.
 
-- Returns:
+Returns:
 
 A dictionary containing the shortened URL, or an error message if the request fails.
