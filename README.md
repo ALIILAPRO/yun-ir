@@ -15,8 +15,8 @@ pip install yun-ir
 ```python
 from yun import Yun
 
-api    = Yun('YOUR tOKEN')
-result = api.short('title', 'url')
+login = Yun.Api('YOUR tOKEN')
+result = login.short('title', 'url')
 
 print(result)
 ```
@@ -32,8 +32,10 @@ Create a new Yun.ir client instance.
 
 Shorten a URL using Yun.ir API.
 
-`title`: Title for the URL.
-`url`: URL to shorten.
+`title`: Title for the URL
+
+
+`url`: URL to shorten
 
 Returns:
 
